@@ -45,15 +45,15 @@
 	});
 	
 	document.getElementById('segment2').addEventListener('click',function(e){
-		renderer.segmentedChanged(1);
+		renderer.segmentedChanged(19);
 	});
 	
 	document.getElementById('segment3').addEventListener('click',function(e){
-		renderer.segmentedChanged(2);
+		renderer.segmentedChanged(19);
 	});
 	
 	document.getElementById('segment4').addEventListener('click',function(e){
-		renderer.segmentedChanged(3);
+		renderer.segmentedChanged(19);
 	});
 	
 	document.getElementById('switch1').addEventListener('click',function(e){
