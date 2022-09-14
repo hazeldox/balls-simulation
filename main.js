@@ -59,7 +59,7 @@
 	document.getElementById('switch1').addEventListener('click',function(e){
 		var mSwitch=e.target;
 		if (mSwitch.checked) {
-			renderer.touchModeChanged(1);
+			renderer.touchModeChanged(10);
 		}
 		else
 		{
